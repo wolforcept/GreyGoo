@@ -1,0 +1,29 @@
+modLoader="javafml" #mandatory
+loaderVersion="[40,)"
+license="All rights reserved"
+
+[[mods]] #mandatory
+
+modId="greygoo"
+version="${file.jarVersion}"
+displayName="Grey Goo"
+
+#updateJSONURL="http://myurl.me/"
+#issueTrackerURL="http://my.issue.tracker/"
+
+displayURL="https://wolforcept.github.io"
+logoFile="logo.png"
+
+credits="Wolforce"
+authors="Wolforce"
+
+description='''
+	Grey Goo Is Coming For You
+'''
+
+[[dependencies.greygoo]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2]"
+    ordering="NONE"
+    side="BOTH"
